@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <title>KeyClient</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="logo">LOGO</div>
+            <nav class="nav">
+              <img
+                src="images/nav/profile.svg"
+                alt="profile"
+                class="nav__item"
+              />
+              <img src="images/nav/like.svg" alt="like" class="nav__item" />
+              <img src="images/nav/cart.svg" alt="cart" class="nav__item" />
+              <img
+                src="images/nav/menu.svg"
+                alt="menu"
+                class="nav__m-menu-btn"
+              />
+            </nav>
+          </div>
+          <div class="m-menu">
+            <img
+              src="images/nav/menu-cross.svg"
+              class="m-menu__close"
+              alt="cross"
+            />
+            <div class="m-menu__items">
+              <div class="m-menu__item">постельное белье</div>
+              <div class="m-menu__item">одежда для дома</div>
+              <div class="m-menu__item">Одежда для улицы</div>
+              <div class="m-menu__item m-menu__close">ВЫход</div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <section class="card">
+          <div class="container">
+            <div class="product">
+              <div class="product__images">
+                <div class="slider-syncing">
+                  <div class="slider-item">
+                    <img src="images/6.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/1.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/2.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/3.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/4.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/5.png" alt="" />
+                  </div>
+                </div>
+                <div class="slider-syncing-nav">
+                  <div class="slider-item">
+                    <img src="images/6.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/1.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/2.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/3.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/4.png" alt="" />
+                  </div>
+                  <div class="slider-item">
+                    <img src="images/5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="content-right">
+                <div class="product__title">
+                  <div class="product__name">Пижама для девочек</div>
+                  <div class="product__article">Арт. 02765/46</div>
+                  <div class="product__reviews">
+                    <div class="product__reviews-title">Отзывы</div>
+                    <div class="product__evaluation">
+                      <img
+                        src="images/icon/star.svg"
+                        alt="star"
+                        class="product__star"
+                      />
+                      <img
+                        src="images/icon/star.svg"
+                        alt="star"
+                        class="product__star"
+                      />
+                      <img
+                        src="images/icon/star.svg"
+                        alt="star"
+                        class="product__star"
+                      />
+                      <img
+                        src="images/icon/star.svg"
+                        alt="star"
+                        class="product__star"
+                      />
+                      <img
+                        src="images/icon/star_null.svg"
+                        alt="star_null"
+                        class="product__star-null"
+                      />
+                    </div>
+                    <div class="product__reviews-num">14 отзывов</div>
+                    <img
+                      src="images/icon/arrow_more.svg"
+                      alt="arrow_more"
+                      class="product__arrow"
+                    />
+                  </div>
+                </div>
+                <div class="product__price price">
+                  <div class="price__title">
+                    <h1 class="price__value price__value--current">800 ₽</h1>
+                    <h2 class="price__value price__value--old">1 500 ₽</h2>
+                    <img
+                      src="images/icon/arrow_more.svg"
+                      alt="arrow_more"
+                      class="price__arrow"
+                    />
+                  </div>
+                  <div class="price__discounts discounts">
+                    <div class="discounts__discount-1">скидка -47%</div>
+                    <div class="discounts__discount-2">акция -20%</div>
+                  </div>
+                </div>
+                <div class="product__params params">
+                  <select class="params__size">
+                    <option class="size-item">Выбрать размер</option>
+                    <option class="size-item">25</option>
+                    <option class="size-item">32</option>
+                  </select>
+                  <div class="params__determine-size">Определить размер</div>
+                  <div class="params__add-panel add-panel">
+                    <div class="add-panel__amount amount">
+                      <button class="amount__item" id="plus">+</button>
+                      <div class="amount__item amount__value" id="value">1</div>
+                      <button class="amount__item" id="minus">-</button>
+                    </div>
+                    <div class="add-panel__btns">
+                      <button class="add-panel__cart">
+                        Добавить в корзину
+                      </button>
+                      <button class="add-panel__like">
+                        <img src="images/icon/like.svg" alt="like" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="params__buy-fast">Купить в 1 клик</div>
+                </div>
+                <div class="product__more">
+                  <ol>
+                    <li>
+                      <img
+                        src="images/icon/description.svg"
+                        alt="description"
+                      />
+                      Описание товара
+                    </li>
+                    <li>
+                      <img src="images/icon/clock.svg" alt="clock" /> Доставка
+                      и возврат
+                    </li>
+                    <li>
+                      <img src="images/icon/pay.svg" alt="pay" /> Способы
+                      оплаты
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="modal">
+        <div class="modal__inner">
+          <img class="modal__close" src="images/icon/cross.svg" alt="" />
+          <form action="#">
+            <div class="modal__title">Купить в 1 клик</div>
+            <input type="phone" placeholder="+ 7 (---) --- -- -- " />
+            <input type="name" placeholder="Ваше имя" />
+          </form>
+          <div class="modal__consent">
+            Нажимая кнопку “Отправить”, я даю согласие на обработку моих
+            персональных данных в соответствии с <br />
+            <span>Условиями конфиденциальности</span>
+          </div>
+          <button class="btn-send">Отправить</button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <div class="footer__item to-buyers">
+                <div class="title">покупателям</div>
+                <ol>
+                  <li>Каталог</li>
+                  <li>Акции</li>
+                  <li>Бренды</li>
+                </ol>
+              </div>
+              <div class="footer__item about">
+                <div class="title">о нас</div>
+                <ol>
+                  <li>О компании</li>
+                  <li>Новости</li>
+                  <li>Команда</li>
+                </ol>
+              </div>
+            </div>
+            <div class="footer__item sub">
+              <div class="sub__title title">
+                Узнайте первыми о новинках и акциях
+              </div>
+              <input type="email" placeholder="Адрес электронной почты" />
+              <div
+                class="input-clear"
+                onclick="this.previousElementSibling.value = ''"
+              >
+                <img src="images/icon/clear.svg" alt="clear" />
+              </div>
+              <button class="sub__btn">Подписаться</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="scripts/slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
